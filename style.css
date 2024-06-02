@@ -15,7 +15,34 @@ html,body{
 .top{
     width:100%;
     min-height: 60vh;
-    background-image: url(mal1.jpg);
+    background-image: url(https://3.bp.blogspot.com/_x8iFo2g4qP8/TTIhSasEO-I/AAAAAAAAAA0/Id49lC3PNyQ/s1600/Moraine+Lakes+Ten+Peaks.jpg);
     background-size:cover;
     background-position:center;
+}
+.top .overlay{
+    position:relative;
+    width:100%;
+    min-height:inherit;
+    background-color: rgba(0, 0, 0, 0.295);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding:0 10vh;
+    color:white;
+    bottom:5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+.text .image{
+    background-image: url(https://th.bing.com/th/id/R.4cc4f042c151ed161beb4a5b61184e7b?rik=54HLFsWrEbDAEw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f246567-nature-landscape-beach-Australia-sunset-clouds-sea-rock-trees-sky-sand-coast-HDR-long_exposure.jpg&ehk=id5OfX0DRwbPOIP56mEJAILxZ29CMZ5tBSoGnUjA3XE%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-position: center;
+    height:300px;
+    width: 220px;
 }
